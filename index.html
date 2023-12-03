@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    /* tambahkan CSS kustom di sini */
+    .profile-img {
+      border: 8px solid #fff;
+      border-radius: 50%;
+      max-width: 200px;
+    }
+    .custom-bullet li {
+      list-style: none; /* Hilangkan default bullet */
+      position: relative; /* Gunakan position relative */
+      padding-left: 100px; /* Berikan ruang untuk bulatan */
+      padding-top: 10px;
+      padding-bottom: 10px;
+    margin-bottom: 15px;
+      margin-top: 10px;
+      font-size: 30px;
+      font-weight: bold;
+    }
+
+    .custom-bullet li::before {
+      content: "\2022"; /* Kode untuk karakter bulatan */
+      color: #007bff; /* Warna bulatan */
+      font-size: 200px; /* Ukuran bulatan */
+      position: absolute; /* Gunakan position absolute */
+      left: 0; /* Posisikan di sebelah kiri */
+      transform: translateY(-50%); /* Sesuaikan posisi vertikal */
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <!-- Section Profile -->
+    <section id="profile" class="text-center py-5">
+      <div class="container">
+        <img src="https://picsum.photos/200/200" alt="Foto Anda" class="profile-img img-fluid">
+        <!-- Menggunakan Lorem Picsum untuk gambar placeholder -->
+        <h1>M. Riski</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto facere impedit incidunt laboriosam, mollitia necessitatibus nobis obcaecati odio officiis omnis provident quam reiciendis! Aliquam atque explicabo impedit ipsa iure maiores minus possimus quibusdam. Amet animi consequatur, dolor eveniet in iure perferendis porro recusandae repudiandae voluptatibus. Architecto, cum, ea eius enim expedita facere illum impedit ipsam laborum quibusdam quo ratione vel vitae voluptate, voluptatum. Accusamus ad, animi consectetur magnam minus nam nihil praesentium temporibus. A accusantium aliquam aspernatur consequuntur cumque dolore, doloremque ducimus exercitationem expedita facilis fugiat id ipsam, libero, molestias praesentium quibusdam rem repellat repellendus unde vel vero voluptate voluptates!</p>
+      </div>
+    </section>
+    <!-- Section Projects -->
+    <section id="projects" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Projects</h2>
+        <div class="row">
+          <!-- Gunakan card Bootstrap untuk setiap proyek -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://picsum.photos/300/200" class="card-img-top" alt="Project 1">
+              <!-- Menggunakan Lorem Picsum untuk gambar proyek placeholder -->
+              <div class="card-body">
+                <h5 class="card-title">Nama Projek 1</h5>
+                <p>Deskripsi proyek</p>
+              </div>
+            </div>
+          </div>
+          <!-- Tambahkan card untuk proyek lainnya di sini --><div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://picsum.photos/300/200" class="card-img-top" alt="Project 1">
+              <!-- Menggunakan Lorem Picsum untuk gambar proyek placeholder -->
+              <div class="card-body">
+                <h5 class="card-title">Nama Projek 1</h5>
+                <p>Deskripsi proyek</p>
+              </div>
+            </div>
+          </div>
+          <!-- Tambahkan card untuk proyek lainnya di sini --><div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="https://picsum.photos/300/200" class="card-img-top" alt="Project 1">
+              <!-- Menggunakan Lorem Picsum untuk gambar proyek placeholder -->
+              <div class="card-body">
+                <h5 class="card-title">Nama Projek 1</h5>
+                <p>Deskripsi proyek</p>
+              </div>
+            </div>
+          </div>
+          <!-- Tambahkan card untuk proyek lainnya di sini -->
+        </div>
+      </div>
+    </section>
+<!-- ... Kode sebelumnya ... -->
+
+<!-- Section Skills -->
+<section id="skills" class="py-5">
+  <div class="container">
+    <h2 class="text-center mb-4">Skills</h2>
+    <div class="row w-75 p-5 mx-auto">
+      <div class="col-md-6">
+<!--        <h4>Programming Languages</h4>-->
+        <ul class="list-unstyled custom-bullet fs-5">
+          <li>
+            HTML
+          </li>
+          <li>
+            CSS
+          </li>
+          <li>
+            JavaScript
+          </li>
+          <li>
+            PHP
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-md-5 ml-5">
+        <ul class="list-unstyled custom-bullet">
+          <li>
+            Laravel
+          </li>
+          <li>
+            CodeIgniter
+          </li>
+          <li>
+            Tailwind CSS
+          </li>
+          <li>
+            Bootstrap
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ... Kode setelahnya ... -->
+
+    <!-- Section Contact -->
+    <section id="contact" class="text-center py-5">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>Email: contoh@email.com</p>
+        <p>No. HP: +6281234567890</p>
+        <!-- Tambahkan informasi kontak Anda di sini -->
+      </div>
+    </section>
+  </header>
+
+  <!-- Footer -->
+  <footer class="fixed-bottom text-center bg-secondary fs-bold">
+    <h4>&copy; 2023 M. Riski</h4>
+    <!-- Tambahkan konten footer di sini -->
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
